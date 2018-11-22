@@ -173,7 +173,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h3 id="hexo的常用方法"><a href="#hexo的常用方法" class="headerlink" title="hexo的常用方法"></a>hexo的常用方法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n <span class="string">"我的博客"</span> == hexo new <span class="string">"我的博客"</span> <span class="comment">#新建文章</span></span><br><span class="line">$ hexo p == hexo publish</span><br><span class="line">$ hexo g == hexo generate<span class="comment">#生成</span></span><br><span class="line">$ hexo s == hexo server <span class="comment">#启动服务预览</span></span><br><span class="line">$ hexo d == hexo deploy<span class="comment">#部署</span></span><br></pre></td></tr></table></figure>
-<p>.html)</p>
+<h3 id="hexo的-config-yml文件"><a href="#hexo的-config-yml文件" class="headerlink" title="hexo的_config.yml文件"></a>hexo的_config.yml文件</h3><p>#####网站参数<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title :      网站标题</span><br><span class="line">subtitle :   网站副标题</span><br><span class="line">description: 网站描述</span><br><span class="line">author:      您的名字</span><br><span class="line">language:    网站使用的语言</span><br><span class="line">timezone:    网站时区</span><br></pre></td></tr></table></figure></p>
+<p>#####网址参数<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">url :              你的第三方域名</span><br><span class="line">root :             网站根目录</span><br><span class="line">permalink:         文章的 永久链接 格式</span><br><span class="line">permalink_default: 永久链接中各部分的默认值</span><br></pre></td></tr></table></figure></p>
+<p>#####目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">source_dir 	资源文件夹，这个文件夹用来存放内容。	<span class="built_in">source</span></span><br><span class="line">public_dir	公共文件夹，这个文件夹用于存放生成的站点文件。	public</span><br><span class="line">tag_dir	标签文件夹	tags</span><br><span class="line">archive_dir	归档文件夹	archives</span><br><span class="line">category_dir	分类文件夹	categories</span><br><span class="line">code_dir	Include code 文件夹	`downloads/code</span><br><span class="line">i18n_dir	国际化（i18n）文件夹	:lang</span><br><span class="line">skip_render	跳过指定文件的渲染，您可使用 glob 表达式来匹配路径。</span><br></pre></td></tr></table></figure></p>
 
       
 
@@ -183,6 +185,17 @@
       
       
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/博客工具//" class="article-tag-list-link color5">博客工具</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
         <p class="article-more-link">
